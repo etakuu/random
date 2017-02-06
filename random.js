@@ -11,8 +11,11 @@ function createFirstScene() {
       makeCircle(100, 95, 30, "#BF762C", 1)
       makeEllipse(80,70, 9, 9,"#BF762C",1)
     makeEllipse(120,70, 9, 9,"#BF762C",1)
-    makeCircle(115, 85, 4, "black",1)
-    makeCircle(
+    makeCircle(115, 88, 3.5, "black",1)
+    makeCircle(86, 88, 3.5, "black", 1)  
+    makeEllipse(100, 98, 11, 8, "white", 1)
+    makeCircle(100, 96, 2, "black", 1)
+ 
 }
 
 
