@@ -5,6 +5,7 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
+    makeCircle(0,0,1000," #ffe066",1)
     makeCircle(100, 95, 30, "#BF762C", 1)
      makeCircle(80, 70, 12, "#F7C6CB", 1)
      makeCircle(120, 70, 12, "#F7C6CB", 1)
@@ -15,6 +16,8 @@ function createFirstScene() {
     makeCircle(86, 88, 3.5, "black", 1)  
     makeEllipse(100, 98, 11, 8, "white", 1)
     makeCircle(100, 96, 2, "black", 1)
+    makePolyline("100,97 100,99 99,100","black",0.5)
+    makeLine(100, 99, 101,100,"black",0.5)
  
 }
 
@@ -23,7 +26,20 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+        makeCircle(0,0,1000," #80b3ff",1)
+    makeCircle(100, 95, 30, "#BF762C", 1)
+     makeCircle(80, 70, 12, "#F7C6CB", 1)
+     makeCircle(120, 70, 12, "#F7C6CB", 1)
+      makeCircle(100, 95, 30, "#BF762C", 1)
+      makeEllipse(80,70, 9, 9,"#BF762C",1)
+    makeEllipse(120,70, 9, 9,"#BF762C",1)
+    makeCircle(115, 88, 3.5, "black",1)
+    makeCircle(86, 88, 3.5, "black", 1)  
+    makeEllipse(100, 98, 11, 8, "white", 1)
+    makeCircle(100, 96, 2, "black", 1)
+    makePolyline("100,97 100,99 99,100","black",0.5)
+    makeLine(100, 99, 101,100,"black",0.5)
+    makePolyline("100,65 98,55 95,50","green",1)
 }
 
 
@@ -31,6 +47,19 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+    makeCircle(0,0,1000," #9fff80",1)
+    makeCircle(100, 95, 30, "#BF762C", 1)
+     makeCircle(80, 70, 12, "#F7C6CB", 1)
+     makeCircle(120, 70, 12, "#F7C6CB", 1)
+      makeCircle(100, 95, 30, "#BF762C", 1)
+      makeEllipse(80,70, 9, 9,"#BF762C",1)
+    makeEllipse(120,70, 9, 9,"#BF762C",1)
+    makeCircle(115, 88, 3.5, "black",1)
+    makeCircle(86, 88, 3.5, "black", 1)  
+    makeEllipse(100, 98, 11, 8, "white", 1)
+    makeCircle(100, 96, 2, "black", 1)
+    makePolyline("100,97 100,99 99,100","black",0.5)
+    makeLine(100, 99, 101,100,"black",0.5)
     
 }
 
