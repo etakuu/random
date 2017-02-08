@@ -40,6 +40,9 @@ function createSecondScene() {
     makePolyline("100,97 100,99 99,100","black",0.5)
     makeLine(100, 99, 101,100,"black",0.5)
     makePolyline("100,65 98,55 95,50","green",1)
+    makeCircle(98, 50, 3,"green", 1)
+    makeCircle(95, 47, 3, "green" ,1) 
+    makeCircle(93, 51, 3, "green", 1)
 }
 
 
@@ -60,6 +63,9 @@ function createThirdScene() {
     makeCircle(100, 96, 2, "black", 1)
     makePolyline("100,97 100,99 99,100","black",0.5)
     makeLine(100, 99, 101,100,"black",0.5)
+    makeCircle(83, 72, 3, "red", 1)
+    makeCircle(80, 74, 4, "red" ,1)
+    makeCircle(86, 70, 4, "red", 1)
     
 }
 
